@@ -52,7 +52,7 @@
 
 ```bash
 # Клонируй репозиторий
-git clone [<your-repo-url>](https://github.com/Chair112/document_searching_app)
+git clone https://github.com/Chair112/document_searching_app
 cd document-search
 
 # Убедись, что файл posts.txt лежит в корне
