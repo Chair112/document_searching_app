@@ -46,16 +46,16 @@
 ### Предварительные требования
 
 - **Docker Desktop** установлен и запущен
-- Файл `data.csv` лежит в корне проекта
+- Файл `post.txt` лежит в корне проекта
 
 ### Шаг 1: Клонирование и подготовка
 
 ```bash
 # Клонируй репозиторий
-git clone <your-repo-url>
+git clone [<your-repo-url>](https://github.com/Chair112/document_searching_app)
 cd document-search
 
-# Убедись, что файл data.csv лежит в корне
+# Убедись, что файл posts.txt лежит в корне
 ls posts.txt
 ```
 
@@ -82,7 +82,7 @@ docker-compose exec app python scripts/import_data.py
 Эта команда:
 - Создаст таблицу `documents` в PostgreSQL
 - Создаст индекс `documents` в Elasticsearch
-- Прочитает `data.csv` и заполнит обе базы данных
+- Прочитает `post.txt` и заполнит обе базы данных
 
 В консоли ты увидишь:
 ```
